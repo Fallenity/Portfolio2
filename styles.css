@@ -698,3 +698,10 @@ body {
     width: 450px;
   }
 }
+
+@media screen and (max-width: 767px) {
+    body {
+        zoom: 150%;
+        -moz-transform: scale(1.5);
+    }
+}
